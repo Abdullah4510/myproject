@@ -1,0 +1,150 @@
+body {
+
+
+    background-color: rgb(210, 228, 222);
+}
+
+ header a{
+
+color: blanchedalmond;
+text-decoration: none;
+
+}
+
+header a:hover{
+
+    color: rgb(93, 133, 179);
+}
+
+a {
+
+    color: rgb(23, 11, 194);
+}
+
+#carouselExampleControls {
+
+
+    height: 480px;
+    width: 480px;
+    position:absolute;
+    top: 170px;
+    left: 100px;
+}
+
+
+#Rec {
+    position:absolute;
+    top: 590px;
+    left: 100px;
+   
+  
+
+}
+
+#borRec {
+
+    position:absolute;
+    top: 640px;
+    left: 100px;
+    border: solid 1px black;
+    border-radius: 8px;
+     height: 400px;
+     width: 430px;
+  
+    
+}
+
+#re{
+ 
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin: 10px;
+}
+
+#most {
+    position:absolute;
+    top: 590px;
+    left: 545px;
+   
+  
+
+}
+
+#mobr {
+
+    position:absolute;
+    top: 640px;
+    left:545px;
+    border-style: solid;
+    border-radius: 14px;
+     height: 400px;
+     width: 390px;
+    
+}
+@media screen and (max-width:500px){
+
+    
+    #carouselExampleControls {
+
+
+        height: 400px;
+        width: 400px;
+        position: relative;
+        left: 0px;
+        top: 50px;
+        
+    }
+    
+    #Rec {
+        position:absolute;
+        top: 590px;
+        left: 0px;
+       
+      
+    
+    }
+    
+    #re{
+ 
+        border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 5px;
+      width: 150px;
+      margin: 15px;
+    }
+    #borRec {
+    
+        position:absolute;
+        top: 640px;
+        left: 0px;
+        border: solid 1px black;
+         height: 400px;
+         width: 400px;
+        
+    }
+    
+    
+    #most {
+        position:absolute;
+        top: 1050px;
+        left: 0px;
+       
+      
+    
+    }
+    
+    #mobr {
+    
+        position:absolute;
+        top:1099px;
+        left:0px;
+        border-style: solid;
+        border-radius: 14px;
+         height: 400px;
+         width: 390px;
+        
+    }
+    
+}
